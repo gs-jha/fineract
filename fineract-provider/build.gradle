@@ -288,7 +288,7 @@ jib {
         ]
         ports = ['8080/tcp', '8443/tcp']
         labels = [maintainer: 'Aleksandar Vidakovic <aleks@apache.org>']
-        user = 'nobody:nogroup'
+        user = '1000:1000'
     }
 
     allowInsecureRegistries = true

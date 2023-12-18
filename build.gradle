@@ -126,6 +126,12 @@ allprojects  {
     group = 'org.apache.fineract'
 
     repositories {
+        maven {
+            url 'https://mifos.jfrog.io/artifactory/libs-snapshot-local'
+        }
+        maven {
+            url "https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/"
+        }
         mavenCentral()
     }
 

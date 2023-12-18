@@ -186,6 +186,35 @@ dependencies {
 
     implementation 'io.github.classgraph:classgraph'
 
+    // implementation 'org.pentaho.reporting.engine.classic.core.ClassicEngineBoot:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.DefaultReportEnvironment:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.MasterReport:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.ReportProcessingException:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.modules.output.pageable.pdf.PdfReportUtil:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.modules.output.table.csv.CSVReportUtil:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.modules.output.table.html.HtmlReportUtil:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.modules.output.table.xls.ExcelReportUtil:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.parameters.ParameterDefinitionEntry:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.parameters.ReportParameterDefinition:9.5.0'
+    // implementation 'org.pentaho.reporting.engine.classic.core.util.ReportParameterValues:9.5.0'
+    // implementation 'org.pentaho.reporting.libraries.resourceloader.Resource:9.5.0'
+    // implementation 'org.pentaho.reporting.libraries.resourceloader.ResourceException:9.5.0'
+    // implementation 'org.pentaho.reporting.libraries.resourceloader.ResourceManager:9.5.0'
+
+    implementation 'org.pentaho.reporting.engine:classic-core:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.engine:classic-extensions:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.engine:classic-extensions-scripting:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.engine:wizard-core:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.library:libbase:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.library:libxml:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.library:libserializer:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.library:librepository:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.library:libloader:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.library:libformula:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.library:libformat:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.library:libfonts:9.5.0.0-SNAPSHOT'
+    implementation 'org.pentaho.reporting.library:libdocbundle:9.5.0.0-SNAPSHOT'
+
     // testCompile dependencies are ONLY used in src/test, not src/main.
     // Do NOT repeat dependencies which are ALREADY in implementation or runtimeOnly!
     //
@@ -204,4 +233,6 @@ dependencies {
         exclude group: 'org.skyscreamer'
     }
     testImplementation ('org.mockito:mockito-inline')
+
+    // compile(group: 'community.mifos', name: 'pentaho-plugin', version: '1.9.0-SNAPSHOT')
 }
